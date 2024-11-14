@@ -1002,7 +1002,7 @@ footer span a:hover {
 .hamburger-menu {
     position: absolute;
     top: 20px;
-    right: 24px;
+    right: 400px;
     cursor: pointer;
     font-size: 24px;
     color: #333;
