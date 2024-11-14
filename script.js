@@ -120,3 +120,18 @@ var subject=document.getElementById("subject").value;
 var body=document.getElementById("body").value;
 window.open('mailto:shahidulshakib034@gmail.com?'+'&subject='+subject+'&body='+body);  
 }
+
+// Toggle dropdown menu visibility on hamburger click
+document.querySelector('.hamburger-menu').addEventListener('click', function () {
+    const dropdown = document.querySelector('.dropdown-menu');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+});
+
+// Optional: Close dropdown if clicking outside of it
+window.addEventListener('click', function (e) {
+    const dropdown = document.querySelector('.dropdown-menu');
+    const hamburger = document.querySelector('.hamburger-menu');
+    if (!dropdown.contains(e.target) && !hamburger.contains(e.target)) {
+        dropdown.style.display = 'none';
+    }
+});
