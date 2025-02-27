@@ -43,8 +43,8 @@
 
 
 .icon {
-    width: 32px;
-    height: 32px;
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -218,8 +218,10 @@ section .title::after {
     color: #fff;
 }
 
+
 .navbar .menu li {
     list-style: none;
+    
     display: inline-block;
 }
 
@@ -227,8 +229,8 @@ section .title::after {
     display: block;
     color: #0a0a0a;
     font-size: 17px;
-    font-weight: 500;
-    margin-left: 25px;
+    font-weight: 600;
+    margin-left: 20px;
     transition: color 0.3s ease;
 }
 
@@ -744,10 +746,11 @@ section .title::after {
 
 .contact .contact-content .info .head {
     font-weight: 500;
+    
 }
 
 .contact .contact-content .info .sub-title {
-    color: #333;
+    color:white;
 }
 
 .contact .right form .fields {
@@ -1062,4 +1065,10 @@ footer span a:hover {
 .btn:hover {
     background-color: #0056b3;
 }
+
+
+.sub-title {
+    color: white;
+}
+
 
