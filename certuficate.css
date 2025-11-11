@@ -21,9 +21,10 @@ h2 {
 }
 
 h3 {
-    color: #101ae3;
+    color: #1ae29f;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
+    font-style: oblique;
 }
 .section {
     margin-bottom: 40px;
@@ -42,10 +43,10 @@ h3 {
 
 .certification p {
     margin: 0;
-    font-size: 22px;
+    font-size: 28px;
     flex-grow: 1; /* Makes sure the text takes up all the space available */
     text-align: left;
-    
+    font-style: italic;
 }
 
 .certification img {
